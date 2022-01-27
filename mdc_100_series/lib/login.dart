@@ -72,7 +72,9 @@ class _LoginPageState extends State<LoginPage> {
                   child: const Text('CANCEL'),
                 ),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
                   child: const Text('NEXT'),
                 )
               ],
