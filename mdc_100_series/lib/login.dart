@@ -100,6 +100,9 @@ class _LoginPageState extends State<LoginPage> {
                     Navigator.pop(context);
                   },
                   child: const Text('NEXT'),
+                  style: ButtonStyle(
+                    elevation: MaterialStateProperty.all(8.0),
+                  ),
                 )
               ],
             ),
